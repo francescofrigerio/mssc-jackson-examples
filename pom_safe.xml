@@ -57,14 +57,11 @@
         </dependency>
     </dependencies>
 
-    <!-- senza la versione dava errore ma fare attenziobe che aggiungendo la versione in questo
-    modo deleghiamo a spring il numero di versione -->
     <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>${project.parent.version}</version>
             </plugin>
         </plugins>
     </build>
